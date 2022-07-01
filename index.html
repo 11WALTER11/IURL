@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+
+
+
+/* typing animation CDN */
+  <script src="https://unpkg.com/ityped@0.0.10"></script>
+  <!-- Load Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+  </script>
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+  <title>INTEGRAL ROBOTICS LAB</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body id="page-top">
+
+<section id="con-21" class="page-section bg-light mb-4 d-none d-lg-block">
+
+  <link rel="stylesheet" href="css\style2.css">
+  <script src="js\eyemotion.js"></script>
+  <link rel="stylesheet" href="css\text-ani.css">
+
+
+
+  <div id="text-anim" class="text-center ">
+    <h1>Hello! I'm IU BOT ! <span class="ityped"></span></h1>
+
+    <script>
+      window.ityped.init(document.querySelector('.ityped'), {
+        strings: ['I track all your movements!', 'Clicks make me angry,Do not click...', 'Scroll down to explore the Website', 'Got much time Now watch me loopinnn.....3 2 1'],
+        loop: true
+      })
+    </script>
+  </div>
+
+
+  <div class="container111111" id="audio-hover">
+    <div class="robothead">
+      <div class="ear"></div>
+      <div class="antenna"></div>
+      <div class="face">
+        <div class="eyes">
+          <div class="eye" id="leftEye">
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="iris"></div>
+            <div class="rim"></div>
+          </div>
+          <div class="eye" id="rightEye">
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="blade">
+              <div></div>
+            </div>
+            <div class="iris"></div>
+            <div class="rim"></div>
+          </div>
+        </div>
+        <div class="mouth"></div>
+      </div>
+    </div>
+    <div class="body11">
+      <div class="neck"></div>
+      <div class="torso"></div>
+    </div>
+
+
+  </div>
+
+
+  <div id="arrow" class="text-end d-none d-lg-block">
+    <a href=#head-cont>
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+      </svg>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Navigation-->
+  <script src="js\scripts.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg p-3 mb-5 " id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">IURL</a>
+      <button class="navbar-toggler" type="button">
+        Menu
+        <i class="fas fa-bars ms-1"></i>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase  me-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#Aboutus">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">current projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#openposition">available positions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
+          <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Dropdown
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                 </div>
+               </li>
+        </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- masthead-->
+  <div id="head-cont" class="filter-bg">
+    <header class="masthead">
+      <div class="container">
+        <div id="a1" class="masthead-subheading">Welcome To!</div>
+        <div class="masthead-heading text-uppercase">INTEGRAL UNIVERSITY ROBOTICS LAB </div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#Aboutus">Tell Me More</a>
+    </div>
+  </header>
+  </div>
+
+  <!-- ABOUT US -->
+  <section class="page-section" id="Aboutus">
+
+    <div class="container">
+
+      <div class="d-flex justify-content-center">
+        <img src="assets\img\logos\Integral_Robotics_Lab_Logo.webp" class="" alt="...">
+      </div>
+      <div class="text-center">
+        <h3 class="section-subheading text-bold ">
+          Integral Robotics Lab focuses on understanding the patterns and underlying mechanisms of our field of study. We are situated in the 4th Floor of the Central
+          Library Building where we are proud to have created a creative, collaborative and open-minded Robotics Lab.
+        </h3>
+
+        <section class="page-section bg-dark p-2 text- bg-opacity-10">
+          <h1 class="section-heading">Thesis at Integral Robotics Lab</h1>
+          <h5 class="section-heading ">B.Tech/M.Tech Thesis</h2>
+            <h3 class="section-subheading text- ">
+              Students of Integral University have the option to pursue their thesis work at the Integral Robotics Lab subject to selection in the
+              ongoing projects, or selection of the project proposal. If you are interested,
+              please have a look at the<a class="text-dark" href="#about">Current Projects</a> , or <a class="text-dark" href="#contact">Contact us </a> to propose a project
+            </h3>
+
+            <div class="text-center ">
+              <a href="#about" class="btn btn-warning m-2" role="button">Current open Projeccts </a>
+              <a href="#contact" class="btn btn-warning m-2" role="button">Propose New Projeccts </a>
+            </div>
+
+
+  </section>
+
+<br />
+        <section class="page-section bg-warning text-dark ">
+          <div class="text-center">
+
+
+            <img class="rounded float-start d-none d-lg-block" src="assets\img\logos\giphy.gif" alt="" height="200px" width="200px">
+            <img class="rounded float-end  d-none d-lg-block " src="assets\img\logos\giphy.gif" alt="" height="200px" width="200px">
+
+            <img class="rounded mx-auto d-block" src="assets\img\logos\join.png" alt="..." height="350px" width="400px">
+
+            <div class="container">
+
+              <h1 class="section-heading">We are looking for students to join us !</h1>
+              <h3 class="section-subheading ">
+                If you are interested to join us, please see the current projects. Students will be selected on the basis of their motivation and prior experience on the topic
+              </h3>
+            </div>
+
+
+            <div>
+              <span class="d-block p-2 bg-danger text-white">Thesis positions available for the Spherical Robot Project</span>
+              <br />
+              <span class="d-block p-2 bg-danger text-white">Thesis positions available for the Lab Helicopter Project.</span>
+            </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- facilities-->
+
+  <section id="facilities">
+
+
+    <section class="bg-light pt-5 pb-5 shadow-sm">
+
+      <section class="page-section">
+
+
+        <h3 class="section-heading text-center">Facilities Available</h3>
+        <h5 class="section-subheading text-muted text-center ">
+          The robotics lab has machines, tools, and equipment relevant to robotics,
+          and tinkering. These facilities are open to Integral University students
+          and staff members only.
+        </h5>
+
+        <!--ROW 1 -->
+      </section>
+
+      <div class="container">
+        <div class="row pt-5">
+
+        </div>
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets\img\logos\3dprinter.webp" class="card-img-top" alt="Card Image">
+              <div class="card-body11 d-flex flex-column">
+                <h5 class="card-title">3D Printer</h5>
+
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets\img\logos\alphabot.webp" class="card-img-top" alt="Card Image">
+              <div class="card-body11 d-flex flex-column">
+                <h5 class="card-title">Differential Drive Robotics Platform</h5>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets\img\logos\cnc_webp.webp" class="card-img-top" alt="Card Image">
+              <div class="card-body11 ">
+                <h5 class="card-title">4-Axis CNC Milling</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--ROW 2 -->
+      <div class="container">
+        <div class="row pt-5">
+
+        </div>
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets\img\logos\laser.webp" class="card-img-top" alt="Card Image">
+              <div class="card-body11 d-flex flex-column">
+                <h5 class="card-title">Laser Cutting and Engraving</h5>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="assets\img\logos\pluto_drone.webp" class="card-img-top" alt="Card Image">
+              <div class="card-body11 d-flex flex-column">
+                <h5 class="card-title">Open Source Drone Platform (Pluto)</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+
+    </section>
+  </section>
+  </section>
+
+  <!-- Events Gallery -->
+  <section class="page section" id="portfolio">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Gallery</h2>
+        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Gallery item 1-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Threads</div>
+              <div class="portfolio-caption-subheading text-muted">Illustration</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Gallery item 2-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Explore</div>
+              <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Gallery item 3-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Finish</div>
+              <div class="portfolio-caption-subheading text-muted">Identity</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+          <!-- Gallery item 4-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Lines</div>
+              <div class="portfolio-caption-subheading text-muted">Branding</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+          <!-- Gallery item 5-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Southwest</div>
+              <div class="portfolio-caption-subheading text-muted">Website Design</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- Gallery item 6-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Window</div>
+              <div class="portfolio-caption-subheading text-muted">Photography</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team-->
+  <section class="page-section bg-light" id="team">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="team-member">
+            <img class="rounded-circle lorem" src="assets\img\team\IMG_4474_cropped-removebg_edited_edited_edited.webp" alt="..." />
+            <h4>Syed Adnan Akhtar</h4>
+            <p class="text-muted">Director Robotics Lab </p>
+            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/syedadnanakhtar/" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+  </section>
+
+  <!-- Current projects-->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Current projects</h2>
+        <h3 class="section-subheading text-muted">The Robotics Lab has many faculty and student lead projects. Below is a non-exhaustive list of the projects.</h3>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets\img\about\spherical-robot.webp" alt="..." /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading text-center">
+              <h4>Spherical Robot</h4>
+            </div>
+            <div class="timeline-body11">
+              <p class="text-center">The tele-operated robot may be deployed at hazardous, difficult and enemy intruded areas and controlled from a safe region. The structure of the spherical robot has many advantages over conventional mobile
+                vehicles or humanoids. The ball shape of a spherical robot enables rolling in any direction on planar surfaces. Sensors and other electronics are completely inside the shell.
+                It is robust to the collisions and can manoeuvre in any direction. The camera mounted on the robot provides a real- time panoramic 360 visual feedback that provides awareness to the situation. The visual feedback transmitted to the
+                operator also enables him/her to control the robot’s movement. A manually operated spherical robot has been designed that provides visual feedback for reconnaissance and search. The design of the robot can be easily modified to add
+                sensors for collecting application specific information to the operator.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets\img\about\DCSC_LabHeli_PNG.webp" alt="..." /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Lab Helicopter</h4>
+            </div>
+            <div class="timeline-body11">
+              <p class="text-muted">We are looking for students to join the lab helicopter project</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted d-none d-lg-block">
+          <div class="timeline-image d-none d-lg-block ">
+            <h4>
+              <BR />
+              <div>
+                <a class="btn btn-primary" href="#contact" role="button">Apply Here</a>
+            </h4>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+    <div class=" text-center d-xl-none">
+      <a class="btn btn-primary d-lg-none d-xl-block" href="#contact" role="button">Apply Here</a> </h4>
+    </div>
+  </section>
+
+  <!-- Open postions -->
+  <section class="page-section bg-light" id="openposition">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Available Positions</h2>
+        <h3 class="section-subheading text-muted">Current Opportunities at Integral Robotics Lab</h3>
+      </div>
+    </div>
+
+    <div class="table-responsive-sm ">
+      <table class="table-sm table-bordered ">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Position</th>
+            <th colspan="2" class="text-center" scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">June 2, 2022</th>
+            <td> Research Assistant </td>
+            <td>We are looking for an ambitious research assistant to join our lab.</td>
+            <td><a class="btn btn-secondary" href="https://iul.ac.in/career.aspx" role="button">Apply Here</a> </td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+
+
+  </section>
+
+
+  <!-- Contact-->
+
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Contact Us</h2>
+        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
+      <!-- * * * * * * * * * * * * * * *-->
+      <!-- * * SB Forms Contact Form * *-->
+      <!-- * * * * * * * * * * * * * * *-->
+      <!-- This form is pre-integrated with SB Forms.-->
+      <!-- To make this form functional, sign up at-->
+      <!-- https://startbootstrap.com/solution/contact-forms-->
+      <!-- to get an API token!-->
+      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="row align-items-stretch mb-5">
+          <div class="col-md-6">
+            <div class="form-group">
+              <!-- Name input-->
+              <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+            </div>
+            <div class="form-group">
+              <!-- Email address input-->
+              <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <div class="form-group mb-md-0">
+              <!-- Phone number input-->
+              <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group form-group-textarea mb-md-0">
+              <!-- Message input-->
+              <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Submit success message-->
+        <!---->
+        <!-- This is what your users will see when the form-->
+        <!-- has successfully submitted-->
+        <div class="d-none" id="submitSuccessMessage">
+          <div class="text-center text-white mb-3">
+            <div class="fw-bolder">Form submission successful!</div>
+            To activate this form, sign up at
+            <br />
+            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+          </div>
+        </div>
+        <!-- Submit error message-->
+        <!---->
+        <!-- This is what your users will see when there is-->
+        <!-- an error submitting the form-->
+        <div class="d-none" id="submitErrorMessage">
+          <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <!-- Submit Button-->
+        <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+      </form>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+        <div class="col-lg-4 my-3 my-lg-0">
+          <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+          <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Portfolio Modals-->
+  <!-- Portfolio item 1 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Threads
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Illustration
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 2 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Explore
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Graphic Design
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 3 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Finish
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Identity
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 4 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Lines
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Branding
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 5 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Southwest
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Website Design
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body11">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
+                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Window
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Photography
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-xmark me-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+  </body11>
+
+</html>

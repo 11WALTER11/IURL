@@ -1,0 +1,362 @@
+.ani-page{
+  font-size:2rem;
+
+
+}
+
+#con-21{
+  margin-top:15px;
+}
+
+
+
+
+
+
+    * {
+      margin: 0 auto;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body11 {
+      background-color: #defff9;
+    }
+
+    .container111111 {
+
+      position: sticky;
+      width: 500px;
+      height: 500px;
+      top: 40px;
+      left: 30px;
+      border-radius: 50%;
+      overflow: hidden;
+      text-align: center;
+
+    }
+
+    .robothead {
+      background-color: #bbbbbb;
+      position: relative;
+      width: 50%;
+      height: 50%;
+      top: 160px;
+
+      border-radius: 20px;
+    }
+
+    .ear {
+      background-color: #ff8c00;
+      position: absolute;
+      width: 30px;
+      height: 60px;
+      border-radius: 6px;
+      top: 80px;
+      left: -30px;
+    }
+
+    .ear::after {
+      content: "";
+      background-color: #ff8c00;
+      position: absolute;
+      width: 30px;
+      height: 60px;
+      border-radius: 6px;
+      left: 280px;
+    }
+
+    .antenna {
+      position: relative;
+      background-color: #ff8c00;
+      width: 60px;
+      height: 20px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      bottom: 20px;
+    }
+
+    .antenna::before {
+      content: "";
+      position: absolute;
+      background-color: #ff8c00;
+      width: 14px;
+      height: 20px;
+      bottom: 19px;
+      left: 23px;
+    }
+
+    .antenna::after {
+      content: "";
+      position: absolute;
+      background-color: #ff8c00;
+      width: 30px;
+      height: 30px;
+      bottom: 37px;
+      left: 15px;
+      border-radius: 50%;
+    }
+
+    .face {
+      position: relative;
+      /* border: 1px solid white; */
+      width: 200px;
+      height: 200px;
+    }
+
+    .eyes {
+      position: absolute;
+      background-color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      top: 40px;
+      left: 8px;
+    }
+
+    .eyes::after {
+      content: "";
+      position: absolute;
+      background-color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      left: 118px;
+    }
+
+    .pupil {
+      position: absolute;
+      background-color: black;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      top: 30px;
+      left: 20px;
+    }
+
+    .pupil::after {
+      content: "";
+      position: absolute;
+      background-color: black;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      left: 106px;
+      z-index: 1;
+    }
+
+    .mouth {
+      position: absolute;
+      border-top: 3px solid black;
+      width: 150px;
+      height: 10px;
+      bottom: 30px;
+      left: 25px;
+    }
+
+    .body11 {
+      position: relative;
+      top: 160px;
+    }
+
+    .neck {
+      position: relative;
+      width: 20px;
+      height: 80px;
+      background-color: #bbbbbb;
+    }
+
+    .torso {
+      position: relative;
+      background-color: #bbbbbb;
+      width: 140px;
+      height: 370px;
+      border-radius: 20px;
+      bottom: 50px;
+    }
+
+    .torso::after {
+      content: "";
+      position: absolute;
+      background-color: #ff8c00;
+      width: 40px;
+      height: 20px;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      left: 50px;
+    }
+
+
+
+
+    *{box-sizing: border-box; user-select: none;}
+
+    html, body11{width:100%; height: 100%;
+    border-radius:60%;
+    }
+
+    body11{background:tranparent
+    height:60px;
+    width: 50px;
+
+    }
+
+    .eye{
+      width: 180px;
+      height: 180px;
+      border-radius: 100%;
+      position: relative;
+      overflow: hidden;
+      border: 6px solid #151515;
+      background:;
+      z-index: 3;
+      transition: top 0.3s ease-out, left 0.3s ease-out, box-shadow 0.4s ease-out, transform 0.4s ease-out;
+    }
+
+    html:active .eye{
+      box-shadow: 0 0 100px 0 rgba(255, 0, 0, 0.4);
+    }
+
+    .iris{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      background: radial-gradient(circle at center, #090049 0%, black 12%,red 22%,#0094FF 70%);
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: -2;
+      border-radius: 100%;
+      transition: background-size 0.4s;
+    }
+
+    html:active .iris{
+      background-size: 75%;
+    }
+
+    .rim{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      border-radius: 100%;
+      box-shadow: inset 0 2px 10px rgba(0, 0, 0, 1);
+      border: 1px solid black;
+      transition: all 0.2s;
+    }
+
+    html:active .rim{
+      border: 3px solid black;
+    }
+
+
+    .blade{
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+
+    .blade > div{
+      width: 80%;
+      height: 120%;
+      border-radius: 100%;
+      background: gold;
+      position: absolute;
+      top:0%;
+      left:-29%;
+      box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, 0.25), inset 0 0 10px 0 rgba(0, 0, 0, 0.8), 0 0 50px 0 rgba(255, 0, 0, 0.07);
+      overflow: hidden;
+      position: absolute;
+      transition: all 0.2s;
+    }
+
+    html:hover .blade > div{
+      top:0%;
+      left:-55%;
+    }
+
+    html:active .blade > div{
+      top:0%;
+      left:-65%;
+      box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, 0.25), inset 0 0 10px 0 rgba(0, 0, 0, 0.8), 0 0 50px 0 rgba(255, 0, 0, 0.2);
+    }
+
+    .blade:nth-child(1){
+      transform: rotate(50deg);
+    }
+
+    .blade:nth-child(2){
+      transform: rotate(5deg);
+    }
+
+    .blade:nth-child(3){
+      transform: rotate(-40deg);
+    }
+
+    .blade:nth-child(4){
+      transform: rotate(-85deg);
+    }
+
+    .blade:nth-child(5){
+      transform: rotate(-130deg);
+    }
+
+    .blade:nth-child(6){
+      transform: rotate(-175deg);
+    }
+
+    .blade:nth-child(7){
+      transform: rotate(-220deg);
+    }
+
+    .blade:nth-child(8){
+      transform: rotate(-265deg);
+    }
+
+    html:active .blade:nth-child(8) > div{
+      top:0%;
+      left:-35%;
+    }
+
+    #leftEye{
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      margin: -100px 0 0 -100px;
+    }
+
+    html:active #leftEye{
+      top: 50.2%;
+      left: 35.2%;
+      transform: rotate(5deg);
+    }
+
+    #rightEye{
+      position: absolute;
+      top: 50%;
+      left: 165px;
+      margin: -100px 0 0 -100px;
+    }
+
+
+    /*  Masthead arrow  animation */
+    #arrow {
+    -webkit-animation: mover 0s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-12px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
